@@ -54,7 +54,7 @@ body {
     cursor: pointer;
 }
 
-.inputs>input {
+.login>input {
     background-color: var(--ig-background-gray);
     border: 1px solid var(--ig-border-gray);
     border-width: 1px;
@@ -63,7 +63,7 @@ body {
     border-radius: 5px;
 }
 
-.inputs>button {
+.login>button {
     background-color: var(--ig-primary-blue);
     padding: 8px;
     margin-top: 15px;
