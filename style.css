@@ -1,15 +1,15 @@
 :root {
     --ig-primary-blue: #67b6fa;
     --ig-primary-white: #ffffff;
-    --ig-background-gray: #fafafa;
-    --ig-border-gray: #dbdbdb;
+    --ig-background-grey: #fafafa;
+    --ig-border-grey: #dbdbdb;
     --or-font-color: #8e8e8e;
     --facebook-blue: #385185;
     --sign-up-color: #0095f5;
 }
 
 body {
-    background-color: var(--ig-background-gray);
+    background-color: var(--ig-background-grey);
     margin: 0;
 }
 
@@ -20,6 +20,8 @@ body {
     gap: 20px;
 }
 
+/* Iphone */
+
 #instagram-phone {
     display: block !important;
 }
@@ -27,6 +29,8 @@ body {
 .ig-phone {
     width: 450px;
 }
+
+/* Right side */
 
 .instagram-login {
     display: flex;
@@ -55,8 +59,8 @@ body {
 }
 
 .login>input {
-    background-color: var(--ig-background-gray);
-    border: 1px solid var(--ig-border-gray);
+    background-color: var(--ig-background-grey);
+    border: 1px solid var(--ig-border-grey);
     border-width: 1px;
     border-style: solid;
     padding: 10px;
@@ -155,6 +159,8 @@ body {
     margin: 0px;
 }
 
+/* footer */
+
 footer {
     display: flex;
     flex-wrap: wrap;
@@ -170,10 +176,6 @@ footer>div {
     cursor: pointer;
 }
 
-footer>div:hover {
-    text-decoration: underline;
-}
-
 .second {
     margin-top: 0;
 }
@@ -186,14 +188,14 @@ footer>div:hover {
 
     .instagram-login {
         background-color: var(--ig-primary-white);
-        border: var(--ig-border-gray);
+        border: var(--ig-border-grey);
         border-width: 1px;
         border-style: solid;
     }
 
     .instagram-login>.sign-up-box {
         background-color: var(--ig-primary-white);
-        border: var(--ig-border-gray);
+        border: var(--ig-border-grey);
         border-width: 1px;
         border-style: solid;
     }
