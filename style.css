@@ -1,8 +1,8 @@
 :root {
     --ig-primary-blue: #67b6fa;
     --ig-primary-white: #ffffff;
-    --ig-background-gray: #fafafa;
-    --ig-border-gray: #dbdbdb;
+    --ig-background-grey: #fafafa;
+    --ig-border-grey: #dbdbdb;
     --or-font-color: #8e8e8e;
     --facebook-blue: #385185;
     --sign-up-color: #0095f5;
@@ -11,7 +11,7 @@
 /* Main */
 
 body {
-    background-color: var(--ig-background-gray);
+    background-color: var(--ig-background-grey);
     margin: 0;
 }
 
@@ -61,8 +61,8 @@ body {
 }
 
 .login>input {
-    background-color: var(--ig-background-gray);
-    border: 1px solid var(--ig-border-gray);
+    background-color: var(--ig-background-grey);
+    border: 1px solid var(--ig-border-grey);
     border-width: 1px;
     border-style: solid;
     padding: 10px;
@@ -200,14 +200,14 @@ footer>div:hover {
 
     .instagram-login {
         background-color: var(--ig-primary-white);
-        border: var(--ig-border-gray);
+        border: var(--ig-border-grey);
         border-width: 1px;
         border-style: solid;
     }
 
     .instagram-login>.sign-up-box {
         background-color: var(--ig-primary-white);
-        border: var(--ig-border-gray);
+        border: var(--ig-border-grey);
         border-width: 1px;
         border-style: solid;
     }
