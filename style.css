@@ -134,7 +134,7 @@ body {
     gap: 5px;
 }
 
-.sign-up {
+.signup {
     color: var(--sign-up-color);
     cursor: pointer;
 }
