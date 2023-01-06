@@ -228,6 +228,10 @@ footer>div:hover {
         margin: 8px;
     }
 
+    .second-bottom {
+        margin: 0%;
+    }
+
     .flex-container {
         display: flex;
         justify-content: center;
