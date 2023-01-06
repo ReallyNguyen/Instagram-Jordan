@@ -1,17 +1,17 @@
 :root {
-    --ig-primary-blue: #67b6fa;
-    --ig-primary-white: #ffffff;
-    --ig-background-grey: #fafafa;
-    --ig-border-grey: #dbdbdb;
-    --or-font-color: #8e8e8e;
+    --insta-primary-blue: #67B6FA;
+    --insta-primary-white: #FFFFFF;
+    --insta-background-grey: #FAFAFA;
+    --insta-border-grey: #DBDBDB;
+    --or-font-color: #8E8E8E;
     --facebook-blue: #385185;
-    --sign-up-color: #0095f5;
+    --sign-up-color: #0095F5;
 }
 
 /* Main */
 
 body {
-    background-color: var(--ig-background-grey);
+    background-color: var(--insta-background-grey);
     margin: 0;
 }
 
@@ -38,7 +38,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 15px;
-    height: 390px;
+    height: 400px;
     width: 300px;
     border: none;
 }
@@ -57,12 +57,11 @@ body {
 
 .insta-logo>img {
     width: 175px;
-    cursor: pointer;
 }
 
 .login>input {
-    background-color: var(--ig-background-grey);
-    border: 1px solid var(--ig-border-grey);
+    background-color: var(--insta-background-grey);
+    border: 1px solid var(--insta-border-grey);
     border-width: 1px;
     border-style: solid;
     padding: 10px;
@@ -70,7 +69,7 @@ body {
 }
 
 .login>button {
-    background-color: var(--ig-primary-blue);
+    background-color: var(--insta-primary-blue);
     padding: 8px;
     margin-top: 15px;
     border-radius: 10px;
@@ -199,17 +198,18 @@ footer>div:hover {
     }
 
     .instagram-login {
-        background-color: var(--ig-primary-white);
-        border: var(--ig-border-grey);
+        background-color: var(--insta-primary-white);
+        border: var(--insta-border-grey);
         border-width: 1px;
         border-style: solid;
     }
 
     .instagram-login>.sign-up-box {
-        background-color: var(--ig-primary-white);
-        border: var(--ig-border-grey);
+        background-color: var(--insta-primary-white);
+        border: var(--insta-border-grey);
         border-width: 1px;
         border-style: solid;
+        margin-top: 20px;
     }
 
 }
