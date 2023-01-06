@@ -8,6 +8,8 @@
     --sign-up-color: #0095f5;
 }
 
+/* Main */
+
 body {
     background-color: var(--ig-background-gray);
     margin: 0;
@@ -20,6 +22,8 @@ body {
     gap: 20px;
 }
 
+/* Iphone */
+
 #instagram-phone {
     display: block !important;
 }
@@ -27,6 +31,8 @@ body {
 .ig-phone {
     width: 450px;
 }
+
+/* Right side */
 
 .instagram-login {
     display: flex;
@@ -159,6 +165,8 @@ body {
     margin: 0px;
 }
 
+/* Footer */
+
 footer {
     display: flex;
     flex-wrap: wrap;
@@ -181,6 +189,8 @@ footer>div:hover {
 .second {
     margin-top: 0;
 }
+
+/* @media */
 
 @media only screen and (min-width: 820px) {
     
